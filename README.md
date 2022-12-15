@@ -17,7 +17,7 @@
   > v.addElement(1);
   > v.addElement(1);
 - Stack<Character> ans = new Stack();
-  > .push();
+  > .push();      
   > .pop();
 
 # Leetcode_careful
