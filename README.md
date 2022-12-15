@@ -3,7 +3,7 @@
 
 # Java code 
 - Hash Map:
-  > 'Map<Character, Integer> pCount = new HashMap();'        
+  > Map<Character, Integer> pCount = new HashMap();        
   > string to char: for (char ch : p.toCharArray());      
   > bool pCount.containsKey(ch);   
   > sCount.put(ch, 1);      
