@@ -12,6 +12,13 @@
   > sCount.remove(ch);     
 - static methods means we can call the methods directly without initialize instances of the class; 
   > static methods can only access to static variables not instance variables. 
+- vector: 
+  > Vector<Integer> v = new Vector();      
+  > v.addElement(1);
+  > v.addElement(1);
+- Stack<Character> ans = new Stack();
+  > .push();
+  > .pop();
 
 # Leetcode_careful
 - function return type matching
