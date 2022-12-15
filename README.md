@@ -10,6 +10,8 @@
   > sCount.put(ch, 1);      
   > sCount.get(ch);      
   > sCount.remove(ch);     
+- static methods means we can call the methods directly without initialize instances of the class; 
+  > static methods can only access to static variables not instance variables. 
 
 # Leetcode_careful
 - function return type matching
