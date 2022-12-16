@@ -7,9 +7,12 @@
 
 #C++ 
 - auto: 
-  > for(auto &s : stones)
-  > auto stone1 = sorted_stones.top(); sorted_stones.pop();
-- return sorted_stones.size() ? sorted_stones.top() : 0;
+  > for(auto &s : stones);     
+  > auto stone1 = sorted_stones.top(); sorted_stones.pop();   
+- ? mark methods: return sorted_stones.size() ? sorted_stones.top() : 0;    
+- Priority queue: 
+  > priority_queue<int> sorted_stones;      
+  > pop(), push(), top();     
 
 # Java code 
 - Hash Map:
@@ -30,13 +33,15 @@
   > .pop();
 - Character.isDigit(stack.peek())   
 - PriorityQueue
-  > PriorityQueue<Integer> pq = new PriorityQueue(new Comparator<Integer>(){
+  > 
+    ```
+    PriorityQueue<Integer> pq = new PriorityQueue(new Comparator<Integer>(){
             public int compare(Integer v1, Integer v2){
                 return v2-v1;
             }
-        });
-        ```
-   > 
+    });
+    ```
+   > add(), remove() == poll(), peek(), 
 
 # Leetcode_careful
 - function return type matching
