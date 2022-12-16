@@ -16,9 +16,10 @@
   > Vector<Integer> v = new Vector();      
   > v.addElement(1);
   > v.addElement(1);
-- Stack<Character> ans = new Stack();
+- Stack<Character> ans = new Stack(); (notice the character)         
   > .push();      
   > .pop();
+- Character.isDigit(stack.peek())         
 
 # Leetcode_careful
 - function return type matching
